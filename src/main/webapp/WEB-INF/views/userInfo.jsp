@@ -10,7 +10,6 @@
 <h1> User Info</h1>
 
 <%
-//User user=(User)request.getAttribute("user");
     User user=(User)request.getSession().getAttribute("user");
 %>
 <table>
