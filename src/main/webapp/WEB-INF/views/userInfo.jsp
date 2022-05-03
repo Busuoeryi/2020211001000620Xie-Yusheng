@@ -1,15 +1,10 @@
-<%@ page import="com.xieyusheng.model.User" %><%--
-  Created by IntelliJ IDEA.
-  User: Lenovo
-  Date: 4/5/2021
-  Time: 5:47 PM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="com.xieyusheng.model.User" %>
 
 <%@include file="header.jsp"%>
 <h1> User Info</h1>
 
 <%
+//User user=(User)request.getAttribute("user");
     User user=(User)request.getSession().getAttribute("user");
 %>
 <table>
