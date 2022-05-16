@@ -14,7 +14,7 @@
 </form>
 <hr/>
 <h2>The action is "MyDearJsp.jsp"</h2>
-<form method="post" action="./MyDearJsp.jsp">
+<form method="post" action="./MyDearServlet.jsp">
     name:<input type="text" name="name"><br/>
     class:<input type="text" name="_class"><br/>
     ID:<input type="text" name="ID"><br/>
